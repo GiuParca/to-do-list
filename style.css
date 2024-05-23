@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #030321;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 60px;
+}
+
+#todolist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#createTask{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 25px;
+    color: #848484;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border: 2px solid #a363aa;
+}
+
+#list{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    width: 800px;
+}
+
+#taskDescription{
+    height: 60px;
+    padding: 15px;
+}
+
+button{
+    padding: 5px 15px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+}
+
+#taskSubmit{
+    border: 1px solid #a363aa;
+}
+
+#taskSubmit:hover{
+    background-color: #a363aa;
+    transform: translateY(-10%);    
+    transition: .5s ease;
+}
+
+th, tr, td{
+    border: 1px solid #a363aa;
+    color: white;
+    margin: auto;
+    width: 800px;
+}
+
+td{
+    text-align: center;
+}
+
+
+
+
+

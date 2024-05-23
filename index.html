@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To Do List</h1>
+    <form id="createTask">
+        <input type="text" id="taskName" placeholder="Task Name" required>
+        <input type="text" id="taskDescription" placeholder="Task Description" required>
+        <button type="submit" id="taskSubmit">Add Task</button>
+    </form>
+    
+    <div id="list">
+        <table id="taskList">
+            <thead id="tableHead">
+                <tr>
+                    <th>Task Name</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>Done</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://kit.fontawesome.com/95abd5f217.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+           
