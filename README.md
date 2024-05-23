@@ -1,4 +1,4 @@
-#To do list
+# To do list
 
 In this dynamic to-do list app powered by HTML, CSS, and JavaScript, each task is created and added to your list using JavaScript DOM manipulation.
 
