@@ -1,5 +1,5 @@
 <h1>To-do list</h1>
-<p><strong>Purpose of the project:</strong> 
+<p><strong>Purpose of the project:</strong><br>
 To improve knowledge in JavaScript elements, DOM manipulation, and event handling.</p>
 <h2>Main Features:</h2>
 
